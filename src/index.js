@@ -1,7 +1,17 @@
-const pageContent = document.getElementById('content');
+// // import your function
+// import myName from './pageload.js';
+
+// function component() {
+//   const element = document.createElement('div');
+
+//   // use your function!
+//   element.innerHTML = myName('Cody');
+//   return element;
+// }
+
+// document.body.appendChild(component());
 
 
-let pageHeader = () => {
-    let header = document.createElement('div');
-    
-}
+
+import './pageload.js'
+
