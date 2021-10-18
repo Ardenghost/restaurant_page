@@ -8,9 +8,9 @@ const header = () => {
     siteLogo.src = '/src/assets/sitelogo.png';
     siteLogo.classList.add('img')
     
-    let siteTitle = document.createElement('p');
+    let siteTitle = document.createElement('paragraph');
     siteTitle.innerText = 'DAISY\'S 四川 CUISINE';
-    siteTitle.classList.add('p')
+    siteTitle.classList.add('paragraph')
 
 
     headerDiv.appendChild(siteLogo);

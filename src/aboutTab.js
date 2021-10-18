@@ -7,7 +7,7 @@ const aboutUs = () => {
     aboutUs.classList.add('text');
 
 container.appendChild(aboutUs)
-    return aboutUs;
+    return container;
 
     
 }

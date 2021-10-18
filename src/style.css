@@ -27,7 +27,7 @@ img {
     height: 100px;
 }
 
-p {
+.paragraph {
     color: white;
     font-size: 30px; 
     display: flex;
@@ -80,4 +80,43 @@ h1 {
     color: white;
     font-size: 20px;
     margin: 20px;
+
+}
+
+
+
+.menu_Container {
+   
+    width: 400px;
+    border: 4px solid black;
+    padding: 20px;
+    overflow: hidden;
+    background-color: white;
+    margin: 20px;
+    position: relative;
+    left: 200px;
+   
+}
+
+.img1 {
+    margin-right: 15px;
+    float: left;
+}
+
+/* .descr_container {
+
+} */
+
+
+ 
+.food_title {
+    margin-left: 15px;
+    display: block;
+    margin: 2px 0 0 0;
+}
+
+.food_description {
+    margin-left: 15px;
+    display: block;
+    margin: 2px 0 0 0;
 }
