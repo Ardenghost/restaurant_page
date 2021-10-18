@@ -1,17 +1,33 @@
-// // import your function
-// import myName from './pageload.js';
-
-// function component() {
-//   const element = document.createElement('div');
-
-//   // use your function!
-//   element.innerHTML = myName('Cody');
-//   return element;
-// }
-
-// document.body.appendChild(component());
+import  header  from "./header";
+import footer from "./footer";
+// import navButtons from "./navarbButtons";
+import welcomeMessage from "./pageLoad";
 
 
 
-import './pageload.js'
+function component() {
+    const container = document.getElementById('content');
 
+    // container.innerHTML = "<div>hello </div>";
+    container.appendChild(header())
+    // container.appendChild(navButtons())
+    container.appendChild(footer())
+    container.appendChild(welcomeMessage())
+    console.log(container.innerHTML)
+
+    return container;
+
+}
+
+function clearContent() {
+    while(content.firstChild) {
+        content.removeChild(content.firstChild);
+    }
+}
+// navButtons()
+component()
+
+// container.appendChild(component());
+
+// header()
+// footer()
